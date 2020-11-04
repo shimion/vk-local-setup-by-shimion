@@ -1,0 +1,39 @@
+[ {
+  "id" : "6785e5c1-0f63-4b73-59e8-3137859730e9",
+  "name" : "crypto_currencies",
+  "label" : "Crypto Currencies",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Crypto Currencies"
+}, {
+  "id" : "b9062866-2858-e71b-91c3-b4f890ba0e5d",
+  "name" : "crypto_image",
+  "label" : "Crypto Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : false,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "src" : "https://f.hubspotusercontent10.net/hubfs/8649918/user_image.png",
+    "alt" : "user_image",
+    "width" : 200,
+    "height" : 200,
+    "max_width" : 512,
+    "max_height" : 512,
+    "size_type" : "exact"
+  }
+}, {
+  "id" : "49ab3a80-1019-85b1-de10-2bfd7a1c0d8b",
+  "name" : "currency_list",
+  "label" : "Currency List",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>This file should be empty.&nbsp;</p>\n<p>Let’s make our module’s styling a bit more exciting. Copy the following code snippet into the file:</p>"
+} ]

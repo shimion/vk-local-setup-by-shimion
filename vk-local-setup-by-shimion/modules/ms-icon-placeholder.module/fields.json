@@ -1,0 +1,21 @@
+[ {
+  "id" : "c1a1650c-9308-ca20-e933-bceaea55d5b3",
+  "name" : "image_field",
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent10.net/hubfs/8649918/arrow_icon.jpg",
+    "alt" : "arrow_icon",
+    "loading" : "disabled",
+    "width" : 179,
+    "height" : 182,
+    "max_width" : 179,
+    "max_height" : 182
+  }
+} ]

@@ -1,0 +1,49 @@
+<!--
+  templateType: global_partial
+  label: Footer
+-->
+<footer class="footer">
+  <div class="footer__container content-wrapper">
+
+   
+    <div class="footer__copyright">
+      <div class="footer__lhs">
+         {% module_block module "rich_text" path="@hubspot/rich_text" %}
+          {% module_attribute 'html' %}
+         <h1 class="footer-logo">eCrypto</h1>
+          <p class="footer__lhs--para">eCrypto is an innovative<br/>payment network and a new kind<br/> of money.</p>
+            <p class="footer__lhs--para">ICO eCrypto<br/> Company Number ERHF237</p>
+        {% end_module_attribute %}
+         {% end_module_block %}
+         </div>
+      
+         <div class="footer__rhs">
+           <div>
+            <h4>Resources</h4>
+            {% module_block module "menu" path="@hubspot/menu" lable="Footer Menu 1" %}
+             {% end_module_block %}
+           </div>
+
+           <div>
+            <h4>Company</h4>
+           {% module_block module "menu 2" path="@hubspot/menu" lable="Footer Menu 1" %}
+             {% end_module_block %}
+           </div>         
+         </div>                     
+
+     
+ </div>
+     <hr/>
+     <div class="footer__copyright">
+      {% module_block module 'footer_copyright_text' path='@hubspot/text' %}
+        {% module_attribute 'value' %}© {{ year }} All rights reserved by e-crypto. {% end_module_attribute %}
+      {% end_module_block %}
+    </div>
+   
+   
+  
+
+    {# End copyright information section #}
+
+  </div>
+</footer>

@@ -1,0 +1,14 @@
+
+div.crypto__currencies {
+  text-align: center;
+}
+
+.crypto__header {
+  font-weight: bold;
+}
+
+.crypto__image {
+  display: block;
+  margin: auto;
+  width: 200px;
+}

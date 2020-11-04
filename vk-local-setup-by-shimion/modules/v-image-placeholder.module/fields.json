@@ -1,0 +1,21 @@
+[ {
+  "id" : "de924cc9-380b-2c2b-38ec-ec3879aef723",
+  "name" : "image_placeholder",
+  "label" : "Image Placeholder",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent10.net/hubfs/8649918/civil-engineering-3.jpg",
+    "alt" : "civil-engineering-3",
+    "loading" : "disabled",
+    "width" : 472,
+    "height" : 472,
+    "max_width" : 472,
+    "max_height" : 472
+  }
+} ]

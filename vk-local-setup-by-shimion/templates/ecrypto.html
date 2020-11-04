@@ -1,0 +1,462 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Ecrypto
+  screenshotPath: ../images/template-previews/home.png
+-->
+
+{% extends "./layouts/base.html" %}
+
+{% block body %} {# Start body block #}
+
+
+{% dnd_area "body area"  %} {# Start dnd area #}
+
+{% dnd_section "menu area"
+  %} {# Start dnd Section #}
+
+{% dnd_column width=12, offset=0 %} {# Start dnd column #}
+{% dnd_row %}
+
+{% dnd_module path='@hubspot/rich_text' 
+width=7, offset=0
+%}
+  {% module_attribute 'html' %}
+    <h1 class="primary-heading">Algorithmic Trading <br />
+      For Everyone</h1>
+    <p>Its main goal is to bring 200 million new retail<br />
+      investors to crypto by eliminating all fiat<br />
+      obstacles on the way to crypto.</p>
+      <a class="btn1" href="#">How it works</a>
+  {% end_module_attribute %}
+  {% end_dnd_module %}
+
+  {% dnd_module path='@hubspot/image',
+  img={
+    'alt': 'Stock placeholder image with grayscale geometrical mountain landscape',
+    'size_type': 'auto',
+    'src': get_asset_url('../images/grayscale-mountain.png')
+  },
+  offset=7,
+  width=5,
+  border_radius={
+    'top': 10,
+    'bottom': 10,
+    'left': 10,
+    'right': 10
+  }
+%}
+{% end_dnd_module %}
+
+{% end_dnd_row %}
+{% end_dnd_column %}{# End dnd column #}
+
+{% end_dnd_section %}{# End dnd Section #}
+
+
+{# Start dnd Section #}
+{% dnd_section "menu area"%} 
+{% dnd_column width=12 %} {# Start dnd column #}
+{% dnd_row %}
+{% dnd_module path='@hubspot/rich_text' width=12 %}
+{% module_attribute 'html' %}
+<div class="section-features-one">
+  <div class="section-features-one__lhs">
+    <div class="section-features-one__lhs--top">
+      {% module "module_16044778766422" path="/vk-local-setup/modules/v-image-placeholder", label="v-image-placeholder" %} 
+    </div>
+    <div class="section-features-one__lhs--bottom">
+       <div>
+          <h6 class="tertiary-heading">4,4 billions</h6>
+          <p class="note"> Invest money </p>
+      </div>
+      <div class="vertical-spacer"></div>
+      <div>
+          <h6 class="tertiary-heading">21+ billions</h6>
+          <p class="note"> Sold Tokens </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section-features-one__rhs">
+    <div class="section-features-one__rhs--top">
+     <h4 class="sub-heading">
+       our core
+      </h4>
+      <h2 class="secondary-heading">
+       What is eCrypto?
+      </h2>
+      <span class="horz-heading-line"></span>
+      <p class="para-two">
+        Built on proven security and technological record. A high level of digital
+asset protection and safe record of transactions.Built on fair-exchange
+protocols enabling cryptocurrency atomic swaps to mitigate
+counter-part risk. Advisory and technology services to execute
+third-party ICOs.
+      </p>
+      <a class="btn1" href="#">READ MORE</a>
+    </div>
+    <div class="section-features-one__rhs--bottom">
+       <div>
+          <div class="token-box">
+         <div>
+          {% module "module_160448384018813" path="/vk-local-setup/modules/ms-icon-placeholder", label="ms-icon-placeholder" %}
+         </div>
+         <div class="how-it-works-content">
+           <p class="note">
+             Features
+           </p>
+            <h4 class="tertiary-heading">Wallet</h4>
+            <p class="para">Exhaustive accounting
+records regularly audited.
+Aims to comply with all
+applicable regulations and
+international laws.</p>
+         </div>
+        </div>
+      </div>
+      <div>
+          <div class="token-box">
+         <div>
+          {% module "module_160448384018813" path="/vk-local-setup/modules/ms-icon-placeholder", label="ms-icon-placeholder" %}
+         </div>
+         <div class="how-it-works-content">
+           <p class="note">
+             Features
+           </p>
+            <h4 class="tertiary-heading">Exchange</h4>
+            <p class="para">Encrypted cold storage and
+cryptographic proof of
+reserves. Fair-exchange
+protocols to eliminate the
+risk.</p>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% end_module_attribute %}
+{% end_dnd_module %}
+{% end_dnd_row %}
+{% end_dnd_column %}{# End dnd column #}
+{% end_dnd_section %}
+{# End dnd Section #}
+
+
+{# Start dnd Section #}
+{% dnd_section "menu area"  padding={
+       top: 0,
+       bottom: 0,
+      }
+      %} 
+{% dnd_column width=12 %} {# Start dnd column #}
+{% dnd_row %}
+{% dnd_module path='@hubspot/rich_text' width=12 %}
+{% module_attribute 'html' %}
+<hr/>
+{% end_module_attribute %}
+{% end_dnd_module %}
+{% end_dnd_row %}
+{% end_dnd_column %}{# End dnd column #}
+{% end_dnd_section %}
+{# End dnd Section #}
+
+
+{% dnd_section "menu area"
+  %} {# Start dnd Section #}
+
+{% dnd_column width=12 %} {# Start dnd column #}
+{% dnd_row %}
+
+{% dnd_module path='@hubspot/rich_text' 
+width=12
+%}
+  {% module_attribute 'html' %}
+    <h1 class="secondary-heading text-center">We are working with the Best</h1>
+    
+    <div class="section-clients">
+      <div class="section-clients__logo">
+        {% module "module_160450662253515" path="/vk-local-setup/modules/v-image-placeholder", label="v-image-placeholder" %}
+      </div>
+      <div class="section-clients__logo">
+        {% module "module_160450662253515" path="/vk-local-setup/modules/v-image-placeholder", label="v-image-placeholder" %}
+      </div>
+      <div class="section-clients__logo">
+        {% module "module_160450662253515" path="/vk-local-setup/modules/v-image-placeholder", label="v-image-placeholder" %}
+      </div>
+      <div class="section-clients__logo">
+        {% module "module_160450662253515" path="/vk-local-setup/modules/v-image-placeholder", label="v-image-placeholder" %}
+      </div>
+      <div class="section-clients__logo">
+        {% module "module_160450662253515" path="/vk-local-setup/modules/v-image-placeholder", label="v-image-placeholder" %}
+      </div>
+      <div class="section-clients__logo">
+        {% module "module_160450662253515" path="/vk-local-setup/modules/v-image-placeholder", label="v-image-placeholder" %}
+      </div>
+  </div>
+  {% end_module_attribute %}
+  {% end_dnd_module %}
+
+{% end_dnd_row %}
+{% end_dnd_column %}{# End dnd column #}
+
+{% end_dnd_section %}{# End dnd Section #}
+
+
+{# Start dnd Section #}
+{% dnd_section "menu area"  padding={
+       top: 0,
+       bottom: 0,
+      }
+      %} 
+{% dnd_column width=12 %} {# Start dnd column #}
+{% dnd_row %}
+{% dnd_module path='@hubspot/rich_text' width=12 %}
+{% module_attribute 'html' %}
+<hr/>
+{% end_module_attribute %}
+{% end_dnd_module %}
+{% end_dnd_row %}
+{% end_dnd_column %}{# End dnd column #}
+{% end_dnd_section %}
+{# End dnd Section #}
+
+{% dnd_section "menu area"
+  %} {# Start dnd Section #}
+
+{% dnd_column width=12, offset=0 %} {# Start dnd column #}
+{% dnd_row %}
+
+{% dnd_module path='@hubspot/rich_text' 
+width=7, offset=0
+%}
+  {% module_attribute 'html' %}
+  <h4 class="sub-heading">our core</h4>
+    <h2 class="secondary-heading">Efficient Computing services and
+blockchain features  
+    </h2>
+    <span class="horz-heading-line"></span>
+    <p class="para-two">Institutional ICO & token listing. An ICO service going from planning<br />
+and execution of ICO campaign to providing ICO token liquidity via<br />
+listing on CryptiBIT at the outset of the ICO. Listing of currencies<br />
+following a technical selection process.</p>
+      <a class="btn1" href="#">READ MORE</a>
+  {% end_module_attribute %}
+  {% end_dnd_module %}
+
+  {% dnd_module path='@hubspot/image',
+  img={
+    'alt': 'Stock placeholder image with grayscale geometrical mountain landscape',
+    'size_type': 'auto',
+    'src': get_asset_url('../images/grayscale-mountain.png')
+  },
+  offset=7,
+  width=5,
+  border_radius={
+    'top': 10,
+    'bottom': 10,
+    'left': 10,
+    'right': 10
+  }
+%}
+{% end_dnd_module %}
+
+{% end_dnd_row %}
+{% end_dnd_column %}{# End dnd column #}
+
+{% end_dnd_section %}{# End dnd Section #}
+
+{% dnd_section "menu area"
+  %} {# Start dnd Section #}
+
+{% dnd_column width=12, offset=0 %} {# Start dnd column #}
+{% dnd_row %}
+
+
+
+  {% dnd_module path='@hubspot/image',
+  img={
+    'alt': 'Stock placeholder image with grayscale geometrical mountain landscape',
+    'size_type': 'auto',
+    'src': get_asset_url('../images/grayscale-mountain.png')
+  },
+  offset=0,
+  width=5,
+  border_radius={
+    'top': 10,
+    'bottom': 10,
+    'left': 10,
+    'right': 10
+  }
+%}
+{% end_dnd_module %}
+
+{% dnd_module , class="main11" path='@hubspot/rich_text' 
+width=7, 
+offset=5
+%}
+  {% module_attribute 'html' %}
+  <div class="paddng_left">
+    <h4 class="sub-heading">our core</h4>
+    <h1 class="secondary-heading">Sell more tickets to your events, <br />
+
+reach new audiences, and raise more</h1>
+<span class="horz-heading-line"></span>
+    <p class="para-two">Tokens High availability and high scalability trade matching engine to sustain a<br />
+deep orderbook on all pairs. Market, limit, stop loss, take profit and<br />
+trailing stop orders. Self-cancelling and expiration orders. Dedicated<br />
+staff available at any time to answer customer requests and solve<br />
+issues experienced on the exchange.</p>
+      <a class="btn1" href="#">READ MORE</a>
+    </div>
+  {% end_module_attribute %}
+  {% end_dnd_module %}
+
+{% end_dnd_row %}
+{% end_dnd_column %}{# End dnd column #}
+
+{% end_dnd_section %}{# End dnd Section #}
+
+
+{# Start dnd Section #}
+{% dnd_section "menu area"  padding={
+       top: 0,
+       bottom: 0,
+      }
+      %} 
+{% dnd_column width=12 %} {# Start dnd column #}
+{% dnd_row %}
+{% dnd_module path='@hubspot/rich_text' width=12 %}
+{% module_attribute 'html' %}
+<hr/>
+{% end_module_attribute %}
+{% end_dnd_module %}
+{% end_dnd_row %}
+{% end_dnd_column %}{# End dnd column #}
+{% end_dnd_section %}
+{# End dnd Section #}
+
+{% dnd_section "menu area"  padding={
+       top: 80,
+       bottom: 0,
+      %}
+ {# Start dnd Section #}
+
+{% dnd_column width=12 %} {# Start dnd column #}
+{% dnd_row %}
+
+{% dnd_module path='@hubspot/rich_text' 
+width=12
+%}
+  {% module_attribute 'html' %}
+    <div class="section-hiw text-center">
+      <h1>HOW IT WORKS</h1>
+    <p class="secondary-heading">The Benefits of Token Holders</p>
+    <span></span>
+</div>
+  {% end_module_attribute %}
+  {% end_dnd_module %}
+
+{% end_dnd_row %}
+{% end_dnd_column %}{# End dnd column #}
+
+{% end_dnd_section %}{# End dnd Section #}
+
+
+
+
+
+
+{% dnd_section "menu area"
+  %} {# Start dnd Section #}
+
+{% dnd_column width=12, offset=0 %} {# Start dnd column #}
+{% dnd_row %}
+
+{% dnd_module path='@hubspot/rich_text' 
+width=8, offset=0
+%}
+  {% module_attribute 'html' %}
+    <div class="tokens">
+     <div class="tokens__lhs">
+       <div class="token-box">
+         <div>
+          {% module "module_160448384018813" path="/vk-local-setup/modules/ms-icon-placeholder", label="ms-icon-placeholder" %}
+         </div>
+         <div class="how-it-works-content">
+            <h4 class="tertiary-heading">Platform for launching your ICO</h4>
+            <p class="para">Every transaction is rated by both parties, and the reputation of each.</p>
+         </div>
+        </div>
+       
+        <div class="token-box">
+         <div>
+          {% module "module_160448384018813" path="/vk-local-setup/modules/ms-icon-placeholder", label="ms-icon-placeholder" %}
+         </div>
+         <div class="how-it-works-content">
+            <h4 class="tertiary-heading">Using Smart Contracts</h4>
+            <p class="para">Smart contracts are an integral part of the CryptiBIT ecosystem</p>
+         </div>
+        </div>
+      </div>   
+      
+      <div class="tokens__rhs">
+       <div class="token-box">
+         <div>
+          {% module "module_160448384018813" path="/vk-local-setup/modules/ms-icon-placeholder", label="ms-icon-placeholder" %}
+         </div>
+         <div class="how-it-works-content">
+            <h4 class="tertiary-heading">Large-scale service without boundaries</h4>
+            <p class="para">Exchange is conducted directly between the seller and the buyer.</p>
+         </div>
+        </div>
+        <div class="token-box">
+         <div>
+          {% module "module_160448384018813" path="/vk-local-setup/modules/ms-icon-placeholder", label="ms-icon-placeholder" %}
+         </div>
+         <div class="how-it-works-content">
+            <h4 class="tertiary-heading">Fixed exchange rates</h4>
+            <p class="para">Information about the rates is automatically collected from the main exchange.</p>
+         </div>
+        </div>
+      </div>   
+      
+</div>
+ 
+  {% end_module_attribute %}
+  {% end_dnd_module %}
+
+{% dnd_module path='@hubspot/rich_text' 
+width=4, offset=8
+%}
+  {% module_attribute 'html' %}
+    
+  <div class="box">
+    <div class="box_top">
+      {% module "module_160450680092717" path="/vk-local-setup/modules/ms-icon-placeholder", label="ms-icon-placeholder" %}
+    </div>
+    <div class="box_bottom">
+      <h3>
+        Decentralized Application with a Distributed Database
+      </h3>
+      <p>
+        A huge community of NEO all around the world. Now you have a chance to join. Joint event with CryptiBIT.
+      </p>
+      <a class="btn1" href="#">READ MORE</a>
+    </div>
+</div>
+ 
+  {% end_module_attribute %}
+  {% end_dnd_module %}
+
+{% end_dnd_row %}
+{% end_dnd_column %}{# End dnd column #}
+
+{% end_dnd_section %}{# End dnd Section #}
+
+
+{% end_dnd_area %} {# End dnd area #}
+
+
+{% endblock body %} {# End body block #}

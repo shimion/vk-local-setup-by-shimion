@@ -1,0 +1,12 @@
+defaultPortal: vdeveloper
+portals:
+  - name: vdeveloper
+    portalId: 8649918
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CJWY9q3ZLhIIAA0ABAAA4AEYvvmPBCCbunwo7ukMMhkAnNDcij4C79q5CjcSwhU7zazBd5uPyK_sOiAAAARBAAAAeAAAAAAAAAAAgAAAAAAAAAQAAMAHYP7_MUIZAJzQ3IqTjm2yMFJ0t7-oHKudxL641HLPHA
+        expiresAt: '2020-11-05T00:10:28.765Z'
+    personalAccessKey: >-
+      CiRkZjhhZDdlNy1mZjQ5LTQxZTYtYmU4ZC1jYTU5MThlOTAwMWUQvvmPBBibunwqGQAF5pGC2xMejndgJWpFpAWHZUo0c3U28Vo

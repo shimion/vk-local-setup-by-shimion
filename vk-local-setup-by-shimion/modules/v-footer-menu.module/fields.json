@@ -1,0 +1,9 @@
+[ {
+  "id" : "8d608c56-0ddd-dfdb-56e2-150751a322ef",
+  "name" : "v_footer_menu",
+  "label" : "v-footer-menu",
+  "required" : false,
+  "locked" : false,
+  "type" : "menu",
+  "default" : 37061803960
+} ]
