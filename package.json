@@ -1,9 +1,25 @@
-// package.json
 {
-    "name": "vk-local-setup-by-shimion",
-    "version": "0.0.1",
-    "devDependencies": {
-      "@hubspot/cms-cli": "^1.0.2",
-      "js-yaml": "^3.13.1"
-    }
-  }
+  "name": "vk-local-setup-by-shimion",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "@hubspot/cms-cli": "^1.0.2",
+    "js-yaml": "^3.13.1"
+  },
+  "bin": {
+    "vk-local-setup-by-shimion": "generate-config.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimion/vk-local-setup-by-shimion.git"
+  },
+  "author": "shimion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shimion/vk-local-setup-by-shimion/issues"
+  },
+  "homepage": "https://github.com/shimion/vk-local-setup-by-shimion#readme"
+}
