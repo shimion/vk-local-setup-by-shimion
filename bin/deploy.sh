@@ -1,2 +1,2 @@
 #!/bin/bash
-npx hs upload src vk-local-setup-by-shimion
+npx hs upload vk-local-setup-by-shimion vk-local-setup-by-shimion
